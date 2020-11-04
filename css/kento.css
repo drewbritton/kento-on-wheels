@@ -1,0 +1,26 @@
+/* CSS Document
+
+Drew Britton
+10/30/20
+TINFO 220 HCI
+Team 5
+Kento Hibachi On Wheels II
+
+Custom styling for the KentoHibachi homepage that
+overrides the default bootstrap-4.4.1.css file.
+
+*/
+
+.kento-section {
+    min-height: 500px;
+}
+
+.bg-kento-dark {
+    background-color: #2A2929;
+    color: white;
+}
+
+.bg-kento-light {
+    background-color: white;
+    color: #2A2929;
+}
