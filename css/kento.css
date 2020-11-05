@@ -38,6 +38,14 @@ overrides the default bootstrap-4.4.1.css file.
     color: white;
 }
 
+.card-header.collapsed {
+    background: #2A2929;
+}
+
+.card-header:not(.collapsed) {
+    background: #FFFFFF;
+}
+
 h2 {
     font-family: "love-ya-like-a-sister", "";
     
