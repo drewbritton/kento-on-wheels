@@ -46,8 +46,16 @@ overrides the default bootstrap-4.4.1.css file.
     background: #FFFFFF;
 }
 
+.accordion {
+    background-color: #2A2929;
+    color: #000000;
+    border-color: yellowgreen;
+}
+
 h2 {
-    font-family: "love-ya-like-a-sister", "";
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
     
 }
 
