@@ -1,0 +1,155 @@
+// Drew Britton
+// TINFO 220(B) HCI
+// Team 5 - Kento Hibachi
+
+
+/*
+ * A list of all available food items that a customer may order
+ * using the takeout / order ahead webpage.
+ */
+
+[
+  {
+    "id": 1,
+    "type": "entree",
+    "name": "Hibachi steak",
+    "price": "13.00",
+    "info": "Fresh cubed grade A steak lightly seasoned with salt, black pepper, garlic butter, and soy sauce. Served with a side of freshly grilled veggies and fried rice."
+  },
+  
+  {
+    "id": 2,
+    "type": "entree",
+    "name": "Hibachi chicken",
+    "price": "10.00",
+    "info": "Freshly cut and cubed chicken breast grilled in our homemade garlic butter and teriyaki sauce. Served with a side of freshly grilled veggies and fried rice."
+  },
+  
+  {
+    "id": 3,
+    "type": "entree",
+    "name": "Hibachi shrimp",
+    "price": "13.00",
+    "info": "Grilled shrimp with our homemade garlic butter, lightly seasoned with soy sauce and a hint of lemon. Served with a side of grilled veggies and fried rice."
+  },
+  
+  {
+    "id": 4,
+    "type": "entree",
+    "name": "Hibachi veggies",
+    "price": "8.00",
+    "info": "A mix of broccoli, onion, carrots, and zucchini, grilled to perfection with soy sauce, garlic butter, and garlic powder. Topped with some delicately grilled tofu. Served hot with a side portion of fried rice."
+  },
+  
+  {
+    "id": 5,
+    "type": "entree",
+    "name": "Sukiyaki chicken",
+    "price": "10.00",
+    "info": "Thinly sliced chicken breast cooked with thinly sliced carrot, onion, and green onion; grilled with a mix of light soy sauce and sukiyaki sauce (teriyaki base with our signature garlic butter sauce)."
+  },
+  
+  {
+    "id": 6,
+    "type": "entree",
+    "name": "Sukiyaki steak",
+    "price": "13.00",
+    "info": "Thinly sliced steak cooked with thin slices of carrot, onion, and green onion; all grilled to perfection in a little bit of soy sauce, as well as sukiyaki sauce (teriyaki base with our signature garlic butter sauce)."
+  },
+  
+  {
+    "id": 7,
+    "type": "combo",
+    "name": "k1",
+    "price": "14.00",
+    "info": "Chicken + Steak hibachi."
+  },
+  
+  {
+    "id": 8,
+    "type": "combo",
+    "name": "k2",
+    "price": "14.00",
+    "info": "Steak + Shrimp hibachi."
+  },
+  
+  {
+    "id": 9,
+    "type": "combo",
+    "name": "k3",
+    "price": "13.50",
+    "info": "Chicken + Shrimp hibachi."
+  },
+  
+  {
+    "id": 10,
+    "type": "combo",
+    "name": "k4",
+    "price": "16.00",
+    "info": "Chicken + Steak + Shrimp hibachi."
+  },
+  
+  {
+    "id": 11,
+    "type": "appetizer",
+    "name": "Chicken Gyoza",
+    "price": "4.00",
+    "info": "Chicken and mixed veggies pot stickers (4 pc)."
+  },
+  
+  {
+    "id": 12,
+    "type": "appetizer",
+    "name": "Egg Rolls",
+    "price": "4.50",
+    "info": "Minced chicken, shrimp, vermicelli noodles, shiitake mushrooms, shallots, jicama, and carrots; wrapped in wonton skin and deep fried (2 pc)."
+  },
+  
+  {
+    "id": 13,
+    "type": "appetizer",
+    "name": "Edamame",
+    "price": "3.00",
+    "info": "Fresh soybean pods."
+  },
+  
+  {
+    "id": 14,
+    "type": "extra",
+    "name": "Shrimp",
+    "price": "6.00",
+    "info": "Extra shrimp added to any entree."
+  },
+  
+  {
+    "id": 15,
+    "type": "extra",
+    "name": "Steak",
+    "price": "6.00",
+    "info": "Extra steak added to any entree."
+  },
+  
+  {
+    "id": 16,
+    "type": "extra",
+    "name": "Chicken",
+    "price": "4.00",
+    "info": "Extra chicken added to any entree."
+  },
+  
+  {
+    "id": 17,
+    "type": "extra",
+    "name": "Veggies",
+    "price": "3.00",
+    "info": "Extra vegetables added to any entree."
+  },
+  
+  {
+    "id": 18,
+    "type": "side",
+    "name": "Yakisoba",
+    "price": "3.00",
+    "info": "Extra shrimp added to any entree."
+  },
+]
