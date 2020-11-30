@@ -25,6 +25,27 @@ overrides the default bootstrap-4.4.1.css file.
     color: #2A2929;
 }
 
+.navbar-kento {
+  background-color: #23231F;
+  border-color: white;
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+
+.navbar-kento .navbar-brand {
+  color: white;
+  font-weight: bold;
+}
+
+.navbar-kento .nav-item > .nav-link {
+  color: white;
+}
+
+.navbar-kento .nav-item > .nav-link:hover {
+  background-color: #f7e3b1;
+  color: grey;
+}
+
 .bg-kento-welcome {
     background-image: url("../images/IMG_7152.jpeg");
     background-size: cover;
