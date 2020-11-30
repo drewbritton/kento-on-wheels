@@ -11,6 +11,18 @@ overrides the default bootstrap-4.4.1.css file.
 
 */
 
+
+.bg {
+  background-image: url("../images/resized/bgcolor.png");
+  height: 100%;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  background-color: #F7E3B1;
+}
+
 .kento-section {
     min-height: 500px;
 }
@@ -27,13 +39,13 @@ overrides the default bootstrap-4.4.1.css file.
 
 .navbar-kento {
   background-color: #23231F;
-  border-color: white;
-  border-radius: 0;
+  border-color: #F7E3B1;
+  border-radius: 2px;
   margin-bottom: 0px;
 }
 
 .navbar-kento .navbar-brand {
-  color: white;
+  color: #F7E3B1;
   font-weight: bold;
 }
 
@@ -42,8 +54,23 @@ overrides the default bootstrap-4.4.1.css file.
 }
 
 .navbar-kento .nav-item > .nav-link:hover {
-  background-color: #f7e3b1;
+  background-color: #F7E3B1;
+  color: darkslategrey;
+}
+
+.navbar-kento .nav-pills > li.active > a {
+  background-color: #F7E3B1;
   color: grey;
+}
+
+.navbar-kento .dropdown-menu {
+  background-color: #F7E3B1;
+  border-color: white;
+}
+
+.navbar-kento .dropdown-menu > a {
+  color: lightgrey;
+  border-color: white;
 }
 
 .bg-kento-welcome {
