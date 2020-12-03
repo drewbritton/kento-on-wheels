@@ -12,9 +12,6 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
     
-    <!-- My custom CSS -->
-    <link href="css/kento.css" rel="stylesheet">
-    
     <!-- Fortawesome icons and fonts -->
     <link href="images/css/all.css" rel="stylesheet">
     <link href="css/kento.css" rel="stylesheet">
@@ -29,7 +26,7 @@
     
     <!-- begin header -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-kento">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html">Kento Hibachi On Wheels</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -59,19 +56,19 @@
     
     <!-- begin main -->
     <main role="main">
-    
-    <!-- begin jumbotron -->
-    <div class="jumbotron jumbotron-fluid text-center">
-      <div class="container">
-        <h1 class="display-4">Authentic Hibachi <i>To-Go</i></h1>
-        <p class="lead col-md-10 offset-md-1" align="right">Visit us at any of our four locations!</p>
-      </div>
-    </div>
-    <!-- end jumbotron -->
       
-    <div class="container">
-      <div class="row">
-        <!-- begin carousel -->
+      <!-- begin jumbotron -->
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-4">Authentic Hibachi <i>To-Go</i></h1>
+          <p class="lead col-md-10 offset-md-1" align="right">Visit us at any of our four locations!</p>
+        </div>
+      </div>
+      <!-- end jumbotron -->
+      
+      <div class="container">
+        <div class="row">
+          <!-- begin carousel -->
           <div id="gallery-carousel" class="carousel slide" data-ride="carousel" data-interval="3000">
             <div class="carousel-inner" role="listbox">
               <div style="height: 400px" class="carousel-item active">
@@ -103,118 +100,105 @@
             </div>
           </div>
           <!-- end carousel -->
+        </div>
       </div>
-          
-      </div>
-      
       <br>
-      
       <div class="container">
-      <div class="row">
-      <div class="col-md-5 text-center">
-        <strong>Hours of operation:
-        <br>
-        11:00am - 8:00pm Mon through Sat
-        <br>
-        12:00pm - 8:00pm Sun</strong>
-      </div>
-      </div>
-    
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card">
-          <img class="card-img-top img-fluid" src="images/menuArt.jpeg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Menu</h4>
-            <p class="card-text">Click the button below to see all of our menu items.</p>
-            <a href="menu.html" class="btn btn-primary">Food Menu</a>
+        <div class="row">
+          <div class="col text-center">
+            <strong>Hours of operation:
+            <br>
+            11:00am - 8:00pm Mon through Sat
+            <br>
+            12:00pm - 8:00pm Sun</strong>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <div class="card-body">
-              <a class="btn btn-primary btn-lg" href="orderahead.html" role="button">Place Carryout Order</a>
+        <div class="row">
+          <div class="col-md-7">
+            <div class="card">
+              <img class="card-img-top img-fluid" src="images/menuArt.jpeg" alt="Card image cap">
+              <div class="card-body">
+                <h4 class="card-title">Menu</h4>
+                <p class="card-text">Click the button below to see all of our menu items.</p>
+                <a href="menu.html" class="btn btn-primary btn-lg">Food Menu</a>
+              </div>
+            </div>
           </div>
-        </div>
-
-      </div>
-      <div class="col-md-4">
-        <div class="card">
-          <img class="card-img-top" src="images/locationMap.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Locations</h5>
-            <p class="card-text">Serving across two cities in Oregon, we currently have one restaurant and three food trucks.</p>
-          </div>
-          <ul class="list-group list-group-flush">
-            <li class="list-group-item">
-              760 Chambers St
+          <div class="col-md-5">
+            <div class="card">
+              <div class="card-body">
+                <h4 class="card-title">Locations</h4>
+                <p class="card-text">Serving three cities within the greater Eugene area, we currently operate one restaurant and three food trucks. Click the button below to visit our locations page featuring interactive Google maps.</p>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  760 Chambers St
+                  <br>
+                  Eugene, OR 97402
+                </li>
+                <li class="list-group-item">
+                  520 Pacific Blvd SW
+                  <br>
+                  Albany, OR
+                </li>
+                <li class="list-group-item">
+                  2711 S Santiam Hwy
+                  <br>
+                  Lebanon, OR 97355
+                </li>
+              </ul>
               <br>
-              Eugene, OR 97402
-            </li>
-            <li class="list-group-item">
-              520 Pacific Blvd SW
-              <br>
-              Albany, OR
-            </li>
-            <li class="list-group-item">
-              2711 S Santiam Hwy
-              <br>
-              Lebanon, OR 97355
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-        
-        
-    <br/>
-    <br/>
-        
-    <div class="row">
-      <div class="col-md-6 text-center">
-        <div class="card">
-          <div class="card-body">
-            <h3>Social Media</h3>
-            <p>Find us on any of these social media platforms.</p>
-            <button type="button" class="btn btn-info btn-md">
-            Facebook
-            </button>
-            <button type="button" class="btn btn-success btn-md" href="https://www.facebook.com/kentoLebanonjapanesegrill/">
-            Yelp
-            </button>
+                <button type="button" class="btn btn-primary btn-lg" href="locations.html">Locations</button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="text-center col-md-6">
-        <div class="card">
-          <div class="card-body">
-            <h3>Customer Reviews</h3>
-            <p>Using the insert panel, add badge to your page by using the badge component.</p>
-            <span class="badge badge-info">Google Reviews</span> <span class="badge badge-success">Sirved Reviews</span>
+        <br/>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="card">
+              <div class="card-body">
+                <h3>Social Media</h3>
+                <p>Find us on any of these social media platforms.</p>
+                <br><br>
+                <button type="button" class="btn btn-info btn-md" href="https://www.facebook.com/kentoLebanonjapanesegrill/">
+                Facebook
+                </button>
+                <button type="button" class="btn btn-success btn-md" href="https://www.yelp.com/biz/kento-s-eugene-eugene">
+                Yelp
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 text-center">
+            <div class="card">
+              <div class="card-body">
+                <h3>Customer Reviews</h3>
+                <p>Check out testimonials written by our honored patrons.</p>
+                <span class="yelp-review" data-review-id="PIeium2NTiITVvqPgrsVAg" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=U0pKasKF-ohbVMpLt9aZJQ" rel="nofollow noopener">Helen K.</a>'s <a href="https://www.yelp.com/biz/kento-s-eugene-eugene?hrid=PIeium2NTiITVvqPgrsVAg" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/jB5IByogyfbt0Rn5XzQ26w" rel="nofollow noopener">Kento’s Eugene</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+                
+                <button type="button" class="btn btn-danger btn-md" href="https://www.google.com/search?hl=en-US&gl=us&q=Kento+Hibachi+On+Wheels,+640+NW+Hickory+St,+Albany,+OR+97321&ludocid=4816690825935221878&lsig=AB86z5WimitrIdbwtfkr2iFx3zva#lrd=0x54c040c18cd5f2d7:0x42d852c948c07476,1">Google Reviews</button>
+                <button type="button" class="btn btn-info" href="">Sirved Reviews</button>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-      
-    <br>
-    <hr>
-      
       </div>
     </main>
-    <!-- end main -->
+    <!-- end main --> 
     
     <!-- begin footer -->
-    <footer class="container">
-          <p>Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="#" >Kento Hibachi On Wheels LLC</a>
-            <br>
-            (253) 777-2388
-            <br>
-          <strong>Team 5 - TINFO 220</strong></p>
-
+    <footer class="text-center">
+      <div class="container bg-kento-dark">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright &copy; 2020 &middot; All Rights Reserved &middot; <a href="index.html">Kento Hibachi On Wheels LLC</a></p>
+            <p><strong>Team 5 - TINFO 220</strong></p>
+          </div>
+        </div>
+      </div>
     </footer>
-    <!-- end footer -->
-       
+    <!-- end footer --> 
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
     <script src="js/jquery-3.4.1.min.js"></script> 
     
