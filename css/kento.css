@@ -11,9 +11,26 @@ overrides the default bootstrap-4.4.1.css file.
 
 */
 
+/*
+body, html {
+  height: 100%;
+}
 
-.bg {
-  background-image: url("../images/resized/bgcolor.png");
+
+body {
+  background-image: url("../images/bg-art-1k.jpg");
+  height: 100%;
+  
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto;
+  
+  background-color: #F7E3B1;
+}
+*/
+
+.bg-image {
+  background-image: url("../images/bg-art-1k.jpg");
   height: 100%;
   
   background-position: center;
@@ -110,4 +127,9 @@ h2 {
 h4 {
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
     font-size: 2.4em;
+}
+#gallery-carousel {
+  width: auto;
+  height: 400px;
+  max-width: 600px;
 }
