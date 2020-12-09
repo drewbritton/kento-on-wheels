@@ -91,7 +91,7 @@ body {
 }
 
 .bg-kento-welcome {
-    background-image: url("../images/bg-art-1k.jpg");
+    /* background-image: url("../images/bg-art-1k.jpg"); */
     background-size: cover;
     color: #4A463A;
 }
